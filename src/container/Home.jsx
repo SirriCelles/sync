@@ -21,7 +21,7 @@ const Home = () => {
       : localStorage.clear();
 
   useEffect(() => {
-    const query = userQuery(userInfo?.gooleId);
+    const query = userQuery(userInfo?.googleId);
 
     client.fetch(query).then((data) => {
       setUser(data[0]);
@@ -48,7 +48,7 @@ const Home = () => {
             <img src={logo} alt="logo" className="w-28" />
           </Link>
           <Link to={`user-profile/${user?._id}`}>
-            <img src={user?.image} alt="user" className="w-28" />
+            <img src={user?.image} alt="user" className="w-10" />
           </Link>
         </div>
         {toggleSidebar && (

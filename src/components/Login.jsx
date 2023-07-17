@@ -11,10 +11,12 @@ const Login = () => {
   const navigate = useNavigate();
   const successHandler = (credentialResponse) => {
     const decodedCredential = jwt_decode(credentialResponse.credential);
+    decodedCredential.googleId = decodedCredential.aud;
+    decodedCredential.imageUrl = decodedCredential.picture;
 
     localStorage.setItem('user', JSON.stringify(decodedCredential));
 
-    const { name, aud: googleId, picture: imageUrl } = decodedCredential;
+    const { name, googleId, imageUrl } = decodedCredential;
     // Saving user data to sanity
     const doc = {
       _id: googleId,

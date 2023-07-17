@@ -5,7 +5,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 import logo from '../assets/logo.png';
 
-const Sidebar = ({user, closeToggle}) => {
+const Sidebar = ({ user, closeToggle }) => {
   const handleCloseSidebar = () => {
     if(closeToggle) closeToggle(false)
   }
