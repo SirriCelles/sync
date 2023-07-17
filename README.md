@@ -1,11 +1,12 @@
 # Project Name
 > SYNC
+> sync: A Scocial App that allows users to connect, share, save, create content and interact with friends
 
 ## Live Demo ()
 
 This is hosted on the live demo link below.
 
-[Live Demo Link](https://)
+[Live Demo Link](https://syncme.netlify.app)
 ## Built With
 
 ### Languages:
