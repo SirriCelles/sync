@@ -66,7 +66,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/SirriCelles/crown-clothing/issues).
+Feel free to check the [issues page](https://github.com/SirriCelles/sync/issues).
 
 ## Show your support
 
