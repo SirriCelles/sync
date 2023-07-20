@@ -1,8 +1,15 @@
 # Project Name
 > SYNC
-> sync: A Scocial App that allows users to connect, share, save, create content and interact with friends
+> Sync: A Social App that allows users to connect, share, save, create content and interact with friends
+>
+> Desktop View
+><img width="1680" alt="Screen Shot 2023-07-21 at 12 17 57 AM" src="https://github.com/SirriCelles/sync/assets/42035795/262b7803-f3d5-439c-be5b-eadd7ce85f25">
 
-## Live Demo ()
+> Mobile View
+> <img width="958" alt="Screen Shot 2023-07-21 at 12 19 11 AM" src="https://github.com/SirriCelles/sync/assets/42035795/5345ea4b-c1d0-487c-be89-105786325b73">
+
+
+## Live Demo [SYNC](https://syncme.netlify.app)
 
 This is hosted on the live demo link below.
 
@@ -14,7 +21,7 @@ This is hosted on the live demo link below.
 - CSS
 - SCSS
 - JavaScript
-###  Framworks and Libraries and Tools
+###  Frameworks and Libraries and Tools
 - Reactjs
 - Sanity
 ### Technologies used:
